@@ -1,0 +1,655 @@
+* {
+     box-sizing: border-box !important;
+}
+::placeholder {
+   opacity: 1 !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+ body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+ a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ h1, h2, h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0 
+}
+
+ button:focus {
+     outline: none;
+}
+ ul, li, ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+p {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #333;
+}
+ a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+:focus {
+     outline: 0;
+}
+.head{
+    position: relative;
+    z-index: 9999;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+    margin: 13px 0 0 0px
+}
+.head .head-nav .head-lins{
+    text-align: right;
+    display: block;
+    height: 50px;
+    margin: 0px 0 0 120px;
+}
+.head .head-logo img{
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+    z-index: 20;
+}
+.head .head-nav .head-lins{
+   width: 100%;
+}
+.head .head-nav .head-lins li{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.head .head-nav .head-lins li.active a{
+   color: #18bb18;
+}
+
+.head .head-nav .head-lins li:hover a{
+   color: #18bb18;
+}
+.head .head-nav .head-lins li a{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: block;
+}
+ /* -------------------------------start skew------------------------------------------------- */
+ .skew-pa{ 
+    position: relative;
+    padding: 68px 0 0 0;
+    background: #282e40;
+    z-index: 20;
+    height: 550px;
+ }
+ .skew-pa h1{ 
+    color: #fff;
+    margin: 124px 0 22px 0px;
+    font-size: 44px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+ }
+ .skew-pa h1 strong{ 
+    color: #5293b7;
+    font-size: 45px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+ .skew-pa p{ 
+    color: #fff;
+ }
+ .skew-pa .skew-img img{ 
+    position: relative;
+   z-index: 22;
+   height: 500px;
+ }
+ .skew-pa .slid-btnn{ 
+    display: block;
+    color: #fff;
+    background: #282e40;
+    position: absolute;
+    bottom: 11px;
+    left: 200px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+ }
+
+ .skew-pa::after{ 
+    width: 54%;
+    background: #fff;
+    transform: skew(50deg);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -405px;
+    height: 550px;
+ }
+ .skew-pa::before{ 
+    width: 100%;
+    background: #fff;
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 73px;
+    bottom: 0;
+ }
+ /* -----------------------------------------start layout---------------------------------------------------- */
+ .layout{
+    margin: 30px 0;
+    padding: 40px 0;
+    position: relative;
+ }
+ .layout .layout-info h2{
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0 0px 25px 0;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .layout .layout-info .layout-an{
+    display: block;
+    color: #fff;
+    background: #282e40;
+    margin: 67px 0 0 0;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+ }
+ .layout .layout-info .layout-an:hover{
+    color: #fff;
+    background: #5293b7; 
+ }
+ /* ---------------------------------start friuts------------------------------------------------------------ */
+ .friuts{
+    position: relative;
+    padding: 30px 0;
+    background: #282e40;
+ }
+ .friuts h2{
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin: 0 0 20px 0;
+ }
+ 
+ .friuts .friuts-img img{
+    max-width: 100%;
+ }
+ .friuts .friuts-info{
+    margin: 20px 0 0 0;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+ }
+ .friuts .friuts-info h3{
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 0 0 5px;
+ }
+ .friuts .friuts-info span{
+    font-size: 18px;
+    color: #12c6f4;
+ }
+ .friuts::after{
+   position: absolute;
+   background: #fff;
+   top: 0;
+   right: 0;
+   width: 14%;
+   content: "";
+   height: 100%;
+ }
+/* ---------------------------------------------start lemon----------------------------------------------- */
+.lemon{ 
+    position: relative;
+    padding: 68px 0 0 0;
+    /* background: #282e40; */
+    z-index: 20;
+    height: 550px;
+ }
+ .lemon h2{ 
+    color: #fff;
+    margin: 124px 0 22px 0px;
+    font-size: 44px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #282e40;
+ }
+ .lemon p{ 
+    color: #282e40;
+ }
+ .lemon .lemon-img img{ 
+    height: 527px;
+ }
+
+ .lemon .lemon-btn{ 
+    display: block;
+    color: #fff;
+    background: #282e40;
+    position: absolute;
+    margin: 51px 0 0 0;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+ }
+ /* -------------------------------------------start blog------------------------------------------------------ */
+ .blog{
+    position: relative;
+    padding: 30px 0;
+    background: #282e40;
+    margin: 46px 0 0 0
+ }
+ .blog .container{
+    position: relative;
+    z-index: 99;
+ }
+ .blog h2{
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin: 0 0 20px 0;
+ }
+ 
+ .blog .blog-img img{
+    max-width: 100%;
+ }
+ .blog .blog-all{
+   overflow: hidden;
+   display: block;
+ }
+ .blog .blog-info{
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    background: #12c6f4;
+    position: relative;
+ }
+ .blog .blog-info::after{
+    position: absolute;
+    background: #12c6f4;
+    top: -31px;
+    left: -14px;
+    width: 110%;
+    height: 50px;
+    content: "";
+    transform: rotate(6deg)
+  }
+ .blog .blog-info h5{
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 10px 0 0 0;
+    color: #fff;
+ }
+ .blog .blog-info p{
+    font-size: 18px;
+    color: #333;
+ }
+
+ .blog::before{
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 17%;
+    content: "";
+    height: 100%;
+  }
+  /* ---------------------------------contact---------------------------------------- */
+  .contact{
+    position: relative;
+    padding: 40px 0;
+    margin: 30px 0;
+  }
+  .contact .contact-img img{
+    max-width: 100%;
+  }
+  .contact .contact-form input{
+    background: #282e40;
+    color: #fff;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+  }
+  .contact .contact-form input::placeholder{
+   text-indent: 4px;
+    color: #fff;
+  }
+  .contact .contact-form textarea{
+    background: #282e40;
+    color: #fff;
+    width: 50%;
+    height: 100px;
+    display: block;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+  }
+  .contact .contact-form textarea::placeholder{
+    text-indent: 4px;
+    color: #fff;
+  }
+  .contact .contact-form .sen{
+    background: #12c6f4;
+    color: #fff;
+    margin: 65px 0;
+    width: 110px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+  .contact .contact-form .sen:hover{
+    background: #5293b7;
+    
+  }
+  /*----------------------------------------------contact-us-------------------------------------------  */
+  .contact-us{
+    background: #282e40;
+    padding: 47px 0 15px;
+    margin: 20px 0 0 0;
+  }
+  .contact-us h3{
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .contact-us .us-p{
+    color: #fff;
+    font-size: 12px;
+  }
+  .contact-us ul>li a{
+    color: #fff;
+  }
+  .contact-us ul>li a:hover{
+    color: #12c6f4;
+  }
+ 
+  .contact-us span{
+    color: #fff;
+  }
+  .contact-us .three-all{
+   width: 100%;
+ }
+ /* .contact-us .three{
+   width: 100%;
+ } */
+  .contact-us .three img{
+    float: left;
+    display: block;
+  }
+  .contact-us .three .s-p{
+    float: left;
+    font-size: 15px;
+    margin: -9px 0 10px 10px;
+  }
+  .contact-us form>input{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    height: 40px;
+    text-indent: 4px;
+  }
+  .contact-us form button{
+    width: 110px;
+    outline: none;
+    border: none;
+    height: 36px;
+    font-size: 16px;
+    line-height: 35px;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    transition: 0.6s;
+    background: #12c6f4;
+  }
+/* -------------------------------------------start copy-right-------------------------------------------------- */
+.copy-right{
+    padding: 10px 0;
+    text-align: center;
+    background-color: #046882;
+}
+.copy-right p{
+    color: #fff;
+}
+.copy-right a{
+    color: #fff;
+    transition: 0.5s;
+}
+.copy-right a:hover {
+    color: #12c6f4;
+}
+/* -------------------------------------------------------------start your media query---------------------------------------------------------- */
+@media(max-width:767px){
+   .head .head-lins {
+      display: none ;
+      margin-left: 0px !important;
+      /* position: absolute; */
+      background-color: #fff;
+      width: 93% !important;
+      min-height: 250px !important;
+      top: 60px;
+  }
+  .head .head-nav .head-lins li {
+      float: none;
+      display: block;
+      border-bottom: 2px solid #dfdfdf;
+      width: 100%;
+      text-align: left;
+      text-indent: 14px;
+      letter-spacing: 1px;
+      background-color: #fff;
+   }
+   .head .big-nav .head-nav{
+      height: 250px;
+      position: absolute;
+      width: 100%;
+      top: 60px;
+      display: none;
+   }
+   .head .big-nav .small-hd{
+      background: #5293b7;
+      height: 40px;
+      margin: 20px 0;
+   }
+   .head .big-nav .small-hd a{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      float: right;
+      padding: 3px;
+      margin: 0 9px;
+   }
+   .head .big-nav .small-hd a>span{
+      display: block;
+      height: 4px;
+      background: #fff;
+      margin: 5px 0;
+   }
+   .skew-pa {
+      height: 856px;
+  }
+   .skew-pa .skew-info h1 {
+      font-size: 28px;
+  }
+  .skew-pa .skew-info h1 strong {
+   font-size: 30px;
+   }
+   .skew-pa .skew-info{
+      margin-top: -40px;
+   }
+   .skew-pa .slid-btnn {
+      display: none;
+  }
+  /* -----------------------------------start lemon----------------------------------- */
+  .lemon {
+   height: 697px;
+   }
+  .lemon h2 {
+   margin: 20px 0 22px 0px;
+   }
+   .lemon .lemon-info{
+      height: 314px;
+   }
+   .lemon .lemon-img img{
+      height: 318px;
+  }
+  /* ------------------------------------start blog----------------------------------------- */
+   .blog .blog-img img {
+      width:511px;
+      display: block;
+   }
+   .blog .blog-info {
+      top: -21px;
+   }
+   /* -------------------------start contact---------------------------------------------- */
+   .contact .contact-form input {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 15px;
+  }
+   .contact .contact-form textarea {
+      width: 100%; 
+      height: 50px;  
+      margin-bottom: 15px;   
+   }  
+   .contact .contact-form .sen {
+         margin: 31px 0;
+   }
+   /* ----------------------------------start contact-us--------------------- */
+   .contact-us {
+      padding: 40px 0;
+      margin-top: -20px;
+   }
+   .contact-us ul>li a {
+      font-size: 17px;
+  }
+  .contact-us .three {
+   width: 100%;
+   display: inline-block;
+   margin-bottom: 15px; 
+   }
+}
+/* -------------------------------start medium------------------------------------- */
+@media(min-width:768px){
+   .head .head-lins{
+      display: inline-block;
+   }
+   .head .big-nav .head-nav{
+      display: block!important;
+   }
+   .head .big-nav .small-hd{
+      display: none!important;
+   }
+   .head .head-nav .head-lins {
+      margin: 0;
+  }
+  .skew-pa h1 {
+   margin: 7px 0 22px 0px;
+   }
+   .skew-pa .skew-img img {
+      height: 461px;
+  }
+   .skew-pa .slid-btnn {
+      color: #282e40;
+      background: #fff;
+      bottom: 107px;
+      left: 44px;
+   }
+   /* ---------------------------start layout--------------------------- */
+   .layout .layout-img img{
+      max-width: 100%;
+   }
+   /* ------------------------start contact------------------------- */
+   .contact .contact-img img {
+      max-width: none;
+  }
+  .contact .contact-form input {
+   width: 100%;
+   height: 75px;
+   margin-bottom: 15px;
+   }
+   .contact .contact-form textarea {
+      width: 100%; 
+      height: 117px;  
+      margin-bottom: 15px;   
+   }  
+   .contact .contact-form .sen {
+         margin: 31px 0;
+   }
+   /* -----------------------contact-us------------------------------- */
+   .contact-us .three-all .three{
+      width: 100%;
+      height: 60px;
+   }
+   .contact-us .three-all {
+      margin: 20px 0 0;
+  }
+  .contact-us h3.setteller {
+   margin-top: 20px;
+   }
+   .contact-us form button {
+      margin: 24px 0 0 0;
+  }
+   
+}
